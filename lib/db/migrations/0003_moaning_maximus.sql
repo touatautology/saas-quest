@@ -1,0 +1,1 @@
+ALTER TABLE "user_settings" ADD COLUMN "gemini_model" varchar(50) DEFAULT 'gemini-1.5-flash' NOT NULL;
