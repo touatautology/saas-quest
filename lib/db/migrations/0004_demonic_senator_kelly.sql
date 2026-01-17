@@ -1,0 +1,2 @@
+ALTER TABLE "user_settings" ALTER COLUMN "gemini_model" SET DEFAULT 'gemini-2.5-flash-lite';
+UPDATE "user_settings" SET "gemini_model" = 'gemini-2.5-flash-lite' WHERE "gemini_model" = 'gemini-1.5-flash';
