@@ -49,8 +49,8 @@ next-env.d.ts
 *.swp
 *.swo
 
-# Claude Code local settings
-.claude/*.local.*
+# Claude Code local settings (settings only - ralph-loop.local.md is ok to share)
+.claude/settings.local.json
 
 # Docker
 postgres_data/
